@@ -1,0 +1,38 @@
+h1 {
+    font-family: fantasy;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: large;
+    /* grid-template-rows: auto minmax(min-content, 1fr) auto; */
+    grid-gap: 1px;
+    
+}
+
+body {
+    
+    background-color: slategray;
+    text-align: center;
+}
+
+/* .list {
+
+} */
+
+.sty {
+    font-family: fantasy;
+    background-color: gainsboro;
+    grid-column: 2/3;
+    display: flex;
+    flex: 2;
+    justify-content: space-between
+
+}
+
+#inp {
+   width: 200px;
+   height: 20px;
+   font-size: larger;
+}
